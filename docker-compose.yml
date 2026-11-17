@@ -1,0 +1,44 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-loganalytics}
+      POSTGRES_USER: ${POSTGRES_USER:-logapp}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_this_local_password}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-logapp} -d ${POSTGRES_DB:-loganalytics}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://logapp:change_this_local_password@db:5432/loganalytics}
+      FRONTEND_ORIGINS: ${FRONTEND_ORIGINS:-http://localhost:8080}
+      GCS_BUCKET: ${GCS_BUCKET:-}
+      MAX_UPLOAD_MB: ${MAX_UPLOAD_MB:-20}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+    ports:
+      - "8080:8080"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
