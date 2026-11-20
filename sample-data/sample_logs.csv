@@ -1,0 +1,241 @@
+timestamp,level,service,message,response_ms,status_code,failed_login
+2026-10-27T08:00:00+00:00,WARNING,database,Response latency above expected threshold,1092.76,200,0
+2026-10-27T08:01:00+00:00,INFO,api-gateway,Request completed successfully,158.71,200,0
+2026-10-27T08:02:00+00:00,INFO,worker,Request completed successfully,173.26,200,0
+2026-10-27T08:03:00+00:00,INFO,worker,Request completed successfully,184.47,200,0
+2026-10-27T08:04:00+00:00,INFO,api-gateway,Request completed successfully,216.73,200,0
+2026-10-27T08:05:00+00:00,INFO,worker,Request completed successfully,153.98,200,0
+2026-10-27T08:06:00+00:00,INFO,api-gateway,Request completed successfully,152.46,200,0
+2026-10-27T08:07:00+00:00,INFO,worker,Request completed successfully,163.48,200,0
+2026-10-27T08:08:00+00:00,INFO,auth-service,Request completed successfully,206.33,200,0
+2026-10-27T08:09:00+00:00,INFO,api-gateway,Request completed successfully,197.47,200,0
+2026-10-27T08:10:00+00:00,INFO,payments,Request completed successfully,154.34,200,0
+2026-10-27T08:11:00+00:00,INFO,payments,Request completed successfully,136.51,200,0
+2026-10-27T08:12:00+00:00,INFO,auth-service,Request completed successfully,161.75,200,0
+2026-10-27T08:13:00+00:00,INFO,database,Request completed successfully,145.15,200,0
+2026-10-27T08:14:00+00:00,INFO,api-gateway,Request completed successfully,196.85,200,0
+2026-10-27T08:15:00+00:00,INFO,payments,Request completed successfully,194.61,200,0
+2026-10-27T08:16:00+00:00,INFO,api-gateway,Request completed successfully,174.17,200,0
+2026-10-27T08:17:00+00:00,INFO,database,Request completed successfully,124.53,200,0
+2026-10-27T08:18:00+00:00,INFO,payments,Request completed successfully,184.09,200,0
+2026-10-27T08:19:00+00:00,WARNING,api-gateway,Response latency above expected threshold,1020.9,200,0
+2026-10-27T08:20:00+00:00,INFO,worker,Request completed successfully,234.96,200,0
+2026-10-27T08:21:00+00:00,WARNING,database,Response latency above expected threshold,877.02,200,0
+2026-10-27T08:22:00+00:00,INFO,auth-service,Request completed successfully,138.69,200,0
+2026-10-27T08:23:00+00:00,INFO,auth-service,Request completed successfully,143.79,200,0
+2026-10-27T08:24:00+00:00,INFO,payments,Request completed successfully,203.43,200,0
+2026-10-27T08:25:00+00:00,INFO,payments,Request completed successfully,188.54,200,0
+2026-10-27T08:26:00+00:00,INFO,payments,Request completed successfully,222.84,200,0
+2026-10-27T08:27:00+00:00,INFO,api-gateway,Request completed successfully,165.5,200,0
+2026-10-27T08:28:00+00:00,INFO,auth-service,Request completed successfully,235.82,200,0
+2026-10-27T08:29:00+00:00,INFO,auth-service,Request completed successfully,175.0,200,0
+2026-10-27T08:30:00+00:00,INFO,worker,Request completed successfully,162.43,200,0
+2026-10-27T08:31:00+00:00,INFO,api-gateway,Request completed successfully,186.47,200,0
+2026-10-27T08:32:00+00:00,INFO,worker,Request completed successfully,142.45,200,0
+2026-10-27T08:33:00+00:00,INFO,api-gateway,Request completed successfully,192.1,200,0
+2026-10-27T08:34:00+00:00,WARNING,payments,Response latency above expected threshold,600.14,200,0
+2026-10-27T08:35:00+00:00,INFO,auth-service,Request completed successfully,197.19,200,0
+2026-10-27T08:36:00+00:00,INFO,worker,Request completed successfully,240.37,200,0
+2026-10-27T08:37:00+00:00,INFO,database,Request completed successfully,181.37,200,0
+2026-10-27T08:38:00+00:00,INFO,payments,Request completed successfully,218.77,200,0
+2026-10-27T08:39:00+00:00,INFO,payments,Request completed successfully,217.46,200,0
+2026-10-27T08:40:00+00:00,INFO,database,Request completed successfully,167.58,200,0
+2026-10-27T08:41:00+00:00,INFO,auth-service,Request completed successfully,130.13,200,0
+2026-10-27T08:42:00+00:00,INFO,auth-service,Request completed successfully,141.48,200,0
+2026-10-27T08:43:00+00:00,INFO,api-gateway,Request completed successfully,97.88,200,0
+2026-10-27T08:44:00+00:00,INFO,database,Request completed successfully,197.51,200,0
+2026-10-27T08:45:00+00:00,INFO,worker,Request completed successfully,152.11,200,0
+2026-10-27T08:46:00+00:00,INFO,auth-service,Request completed successfully,192.31,200,0
+2026-10-27T08:47:00+00:00,INFO,worker,Request completed successfully,109.33,200,0
+2026-10-27T08:48:00+00:00,INFO,api-gateway,Request completed successfully,179.87,200,0
+2026-10-27T08:49:00+00:00,INFO,database,Request completed successfully,131.68,200,0
+2026-10-27T08:50:00+00:00,INFO,database,Request completed successfully,202.01,200,0
+2026-10-27T08:51:00+00:00,INFO,auth-service,Request completed successfully,160.7,200,0
+2026-10-27T08:52:00+00:00,INFO,worker,Request completed successfully,191.52,200,0
+2026-10-27T08:53:00+00:00,INFO,api-gateway,Request completed successfully,136.29,200,0
+2026-10-27T08:54:00+00:00,INFO,payments,Request completed successfully,181.75,200,0
+2026-10-27T08:55:00+00:00,INFO,database,Request completed successfully,112.91,200,0
+2026-10-27T08:56:00+00:00,INFO,payments,Request completed successfully,113.81,200,0
+2026-10-27T08:57:00+00:00,WARNING,auth-service,Response latency above expected threshold,954.49,200,0
+2026-10-27T08:58:00+00:00,INFO,payments,Request completed successfully,176.84,200,0
+2026-10-27T08:59:00+00:00,INFO,database,Request completed successfully,151.55,200,0
+2026-10-27T09:00:00+00:00,INFO,api-gateway,Request completed successfully,262.71,200,0
+2026-10-27T09:01:00+00:00,INFO,auth-service,Request completed successfully,178.32,200,0
+2026-10-27T09:02:00+00:00,INFO,auth-service,Request completed successfully,193.84,200,0
+2026-10-27T09:03:00+00:00,INFO,database,Request completed successfully,174.24,200,0
+2026-10-27T09:04:00+00:00,INFO,auth-service,Request completed successfully,223.29,200,0
+2026-10-27T09:05:00+00:00,INFO,worker,Request completed successfully,191.45,200,0
+2026-10-27T09:06:00+00:00,INFO,worker,Request completed successfully,183.68,200,0
+2026-10-27T09:07:00+00:00,INFO,auth-service,Request completed successfully,184.71,200,0
+2026-10-27T09:08:00+00:00,INFO,auth-service,Request completed successfully,188.58,200,0
+2026-10-27T09:09:00+00:00,INFO,database,Request completed successfully,205.02,200,0
+2026-10-27T09:10:00+00:00,INFO,payments,Request completed successfully,173.54,200,0
+2026-10-27T09:11:00+00:00,WARNING,database,Response latency above expected threshold,658.65,200,0
+2026-10-27T09:12:00+00:00,INFO,payments,Request completed successfully,115.26,200,0
+2026-10-27T09:13:00+00:00,INFO,worker,Request completed successfully,147.64,200,0
+2026-10-27T09:14:00+00:00,INFO,auth-service,Request completed successfully,156.48,200,0
+2026-10-27T09:15:00+00:00,INFO,auth-service,Request completed successfully,134.05,200,0
+2026-10-27T09:16:00+00:00,INFO,database,Request completed successfully,235.42,200,0
+2026-10-27T09:17:00+00:00,INFO,payments,Request completed successfully,135.51,200,0
+2026-10-27T09:18:00+00:00,INFO,api-gateway,Request completed successfully,152.4,200,0
+2026-10-27T09:19:00+00:00,INFO,api-gateway,Request completed successfully,137.44,200,0
+2026-10-27T09:20:00+00:00,INFO,database,Request completed successfully,215.15,200,0
+2026-10-27T09:21:00+00:00,INFO,api-gateway,Request completed successfully,226.7,200,0
+2026-10-27T09:22:00+00:00,INFO,auth-service,Request completed successfully,189.64,200,0
+2026-10-27T09:23:00+00:00,INFO,auth-service,Request completed successfully,201.59,200,0
+2026-10-27T09:24:00+00:00,ERROR,database,Upstream request failed,214.15,502,0
+2026-10-27T09:25:00+00:00,INFO,database,Request completed successfully,175.43,200,0
+2026-10-27T09:26:00+00:00,INFO,api-gateway,Request completed successfully,229.49,200,0
+2026-10-27T09:27:00+00:00,INFO,api-gateway,Request completed successfully,221.04,200,0
+2026-10-27T09:28:00+00:00,INFO,auth-service,Request completed successfully,167.64,200,0
+2026-10-27T09:29:00+00:00,INFO,database,Request completed successfully,188.29,200,0
+2026-10-27T09:30:00+00:00,INFO,worker,Request completed successfully,120.92,200,0
+2026-10-27T09:31:00+00:00,INFO,auth-service,Request completed successfully,146.68,200,0
+2026-10-27T09:32:00+00:00,INFO,api-gateway,Request completed successfully,128.2,200,0
+2026-10-27T09:33:00+00:00,INFO,api-gateway,Request completed successfully,122.92,200,0
+2026-10-27T09:34:00+00:00,INFO,api-gateway,Request completed successfully,146.4,200,0
+2026-10-27T09:35:00+00:00,WARNING,auth-service,Response latency above expected threshold,1025.72,200,0
+2026-10-27T09:36:00+00:00,INFO,api-gateway,Request completed successfully,196.77,200,0
+2026-10-27T09:37:00+00:00,INFO,database,Request completed successfully,164.76,200,0
+2026-10-27T09:38:00+00:00,ERROR,payments,Upstream request failed,148.09,502,0
+2026-10-27T09:39:00+00:00,WARNING,database,Response latency above expected threshold,611.06,200,0
+2026-10-27T09:40:00+00:00,INFO,worker,Request completed successfully,148.47,200,0
+2026-10-27T09:41:00+00:00,INFO,api-gateway,Request completed successfully,162.85,200,0
+2026-10-27T09:42:00+00:00,INFO,payments,Request completed successfully,99.68,200,0
+2026-10-27T09:43:00+00:00,INFO,auth-service,Request completed successfully,149.14,200,0
+2026-10-27T09:44:00+00:00,WARNING,auth-service,Response latency above expected threshold,677.89,200,0
+2026-10-27T09:45:00+00:00,INFO,api-gateway,Request completed successfully,188.23,200,0
+2026-10-27T09:46:00+00:00,INFO,payments,Request completed successfully,177.62,200,0
+2026-10-27T09:47:00+00:00,INFO,database,Request completed successfully,182.57,200,0
+2026-10-27T09:48:00+00:00,INFO,api-gateway,Request completed successfully,150.17,200,0
+2026-10-27T09:49:00+00:00,INFO,database,Request completed successfully,175.16,200,0
+2026-10-27T09:50:00+00:00,INFO,auth-service,Request completed successfully,240.73,200,0
+2026-10-27T09:51:00+00:00,INFO,database,Request completed successfully,185.55,200,0
+2026-10-27T09:52:00+00:00,INFO,worker,Request completed successfully,155.28,200,0
+2026-10-27T09:53:00+00:00,INFO,api-gateway,Request completed successfully,148.04,200,0
+2026-10-27T09:54:00+00:00,INFO,payments,Request completed successfully,199.51,200,0
+2026-10-27T09:55:00+00:00,INFO,worker,Request completed successfully,174.2,200,0
+2026-10-27T09:56:00+00:00,INFO,worker,Request completed successfully,146.1,200,0
+2026-10-27T09:57:00+00:00,INFO,worker,Request completed successfully,189.9,200,0
+2026-10-27T09:58:00+00:00,INFO,worker,Request completed successfully,130.33,200,0
+2026-10-27T09:59:00+00:00,INFO,worker,Request completed successfully,129.15,200,0
+2026-10-27T10:00:00+00:00,INFO,api-gateway,Request completed successfully,191.41,200,0
+2026-10-27T10:01:00+00:00,INFO,auth-service,Request completed successfully,128.88,200,0
+2026-10-27T10:02:00+00:00,INFO,database,Request completed successfully,202.93,200,0
+2026-10-27T10:03:00+00:00,INFO,api-gateway,Request completed successfully,161.44,200,0
+2026-10-27T10:04:00+00:00,INFO,payments,Request completed successfully,166.65,200,0
+2026-10-27T10:05:00+00:00,INFO,worker,Request completed successfully,208.53,200,0
+2026-10-27T10:06:00+00:00,INFO,payments,Request completed successfully,169.81,200,0
+2026-10-27T10:07:00+00:00,INFO,auth-service,Request completed successfully,183.77,200,0
+2026-10-27T10:08:00+00:00,INFO,payments,Request completed successfully,135.65,200,0
+2026-10-27T10:09:00+00:00,INFO,api-gateway,Request completed successfully,171.31,200,0
+2026-10-27T10:10:00+00:00,INFO,api-gateway,Request completed successfully,144.54,200,0
+2026-10-27T10:11:00+00:00,ERROR,worker,Upstream request failed,151.57,502,0
+2026-10-27T10:12:00+00:00,INFO,api-gateway,Request completed successfully,76.54,200,0
+2026-10-27T10:13:00+00:00,INFO,payments,Request completed successfully,178.36,200,0
+2026-10-27T10:14:00+00:00,INFO,payments,Request completed successfully,111.61,200,0
+2026-10-27T10:15:00+00:00,INFO,database,Request completed successfully,182.71,200,0
+2026-10-27T10:16:00+00:00,INFO,api-gateway,Request completed successfully,166.56,200,0
+2026-10-27T10:17:00+00:00,INFO,database,Request completed successfully,183.53,200,0
+2026-10-27T10:18:00+00:00,INFO,auth-service,Request completed successfully,183.58,200,0
+2026-10-27T10:19:00+00:00,INFO,database,Request completed successfully,176.88,200,0
+2026-10-27T10:20:00+00:00,INFO,worker,Request completed successfully,166.84,200,0
+2026-10-27T10:21:00+00:00,INFO,payments,Request completed successfully,186.82,200,0
+2026-10-27T10:22:00+00:00,INFO,payments,Request completed successfully,155.13,200,0
+2026-10-27T10:23:00+00:00,INFO,payments,Request completed successfully,137.56,200,0
+2026-10-27T10:24:00+00:00,INFO,api-gateway,Request completed successfully,155.64,200,0
+2026-10-27T10:25:00+00:00,INFO,auth-service,Request completed successfully,198.38,200,0
+2026-10-27T10:26:00+00:00,INFO,database,Request completed successfully,169.74,200,0
+2026-10-27T10:27:00+00:00,INFO,api-gateway,Request completed successfully,182.83,200,0
+2026-10-27T10:28:00+00:00,WARNING,database,Response latency above expected threshold,997.19,200,0
+2026-10-27T10:29:00+00:00,INFO,auth-service,Request completed successfully,147.47,200,0
+2026-10-27T10:30:00+00:00,INFO,worker,Request completed successfully,145.85,200,0
+2026-10-27T10:31:00+00:00,INFO,api-gateway,Request completed successfully,225.24,200,0
+2026-10-27T10:32:00+00:00,WARNING,worker,Response latency above expected threshold,1039.41,200,0
+2026-10-27T10:33:00+00:00,INFO,payments,Request completed successfully,153.01,200,0
+2026-10-27T10:34:00+00:00,INFO,database,Request completed successfully,93.17,200,0
+2026-10-27T10:35:00+00:00,INFO,payments,Request completed successfully,176.98,200,0
+2026-10-27T10:36:00+00:00,INFO,database,Request completed successfully,148.51,200,0
+2026-10-27T10:37:00+00:00,INFO,api-gateway,Request completed successfully,184.37,200,0
+2026-10-27T10:38:00+00:00,INFO,auth-service,Request completed successfully,106.03,200,0
+2026-10-27T10:39:00+00:00,INFO,database,Request completed successfully,169.76,200,0
+2026-10-27T10:40:00+00:00,INFO,auth-service,Request completed successfully,144.99,200,0
+2026-10-27T10:41:00+00:00,INFO,database,Request completed successfully,162.26,200,0
+2026-10-27T10:42:00+00:00,INFO,worker,Request completed successfully,172.09,200,0
+2026-10-27T10:43:00+00:00,INFO,worker,Request completed successfully,176.73,200,0
+2026-10-27T10:44:00+00:00,INFO,api-gateway,Request completed successfully,124.26,200,0
+2026-10-27T10:45:00+00:00,ERROR,database,Database connection pool exhausted,3814.81,503,0
+2026-10-27T10:46:00+00:00,ERROR,database,Database connection pool exhausted,3030.59,503,0
+2026-10-27T10:47:00+00:00,ERROR,database,Database connection pool exhausted,3181.88,503,0
+2026-10-27T10:48:00+00:00,ERROR,database,Database connection pool exhausted,1869.79,503,0
+2026-10-27T10:49:00+00:00,ERROR,database,Database connection pool exhausted,3160.64,503,0
+2026-10-27T10:50:00+00:00,ERROR,database,Database connection pool exhausted,2034.04,503,0
+2026-10-27T10:51:00+00:00,ERROR,database,Database connection pool exhausted,4537.48,503,0
+2026-10-27T10:52:00+00:00,ERROR,database,Database connection pool exhausted,2294.01,503,0
+2026-10-27T10:53:00+00:00,ERROR,database,Database connection pool exhausted,4910.04,503,0
+2026-10-27T10:54:00+00:00,ERROR,database,Database connection pool exhausted,3871.51,503,0
+2026-10-27T10:55:00+00:00,ERROR,database,Database connection pool exhausted,2072.01,503,0
+2026-10-27T10:56:00+00:00,ERROR,database,Database connection pool exhausted,3622.02,503,0
+2026-10-27T10:57:00+00:00,ERROR,database,Database connection pool exhausted,3865.62,503,0
+2026-10-27T10:58:00+00:00,ERROR,database,Database connection pool exhausted,3490.41,503,0
+2026-10-27T10:59:00+00:00,ERROR,database,Database connection pool exhausted,4035.46,503,0
+2026-10-27T11:00:00+00:00,ERROR,database,Database connection pool exhausted,4819.33,503,0
+2026-10-27T11:01:00+00:00,ERROR,database,Database connection pool exhausted,3041.86,503,0
+2026-10-27T11:02:00+00:00,ERROR,database,Database connection pool exhausted,3519.92,503,0
+2026-10-27T11:03:00+00:00,ERROR,database,Database connection pool exhausted,2691.53,503,0
+2026-10-27T11:04:00+00:00,ERROR,database,Database connection pool exhausted,3320.97,503,0
+2026-10-27T11:05:00+00:00,ERROR,database,Database connection pool exhausted,3550.41,503,0
+2026-10-27T11:06:00+00:00,ERROR,database,Database connection pool exhausted,2783.67,503,0
+2026-10-27T11:07:00+00:00,ERROR,database,Database connection pool exhausted,2421.17,503,0
+2026-10-27T11:08:00+00:00,ERROR,database,Database connection pool exhausted,3157.83,503,0
+2026-10-27T11:09:00+00:00,ERROR,database,Database connection pool exhausted,2525.72,503,0
+2026-10-27T11:10:00+00:00,ERROR,database,Database connection pool exhausted,2959.42,503,0
+2026-10-27T11:11:00+00:00,WARNING,auth-service,Repeated failed login attempt,259.42,401,1
+2026-10-27T11:12:00+00:00,WARNING,auth-service,Repeated failed login attempt,261.57,401,1
+2026-10-27T11:13:00+00:00,WARNING,auth-service,Repeated failed login attempt,293.51,401,1
+2026-10-27T11:14:00+00:00,WARNING,auth-service,Repeated failed login attempt,428.14,401,1
+2026-10-27T11:15:00+00:00,WARNING,auth-service,Repeated failed login attempt,232.7,401,1
+2026-10-27T11:16:00+00:00,WARNING,auth-service,Repeated failed login attempt,267.0,401,1
+2026-10-27T11:17:00+00:00,WARNING,auth-service,Repeated failed login attempt,473.12,401,1
+2026-10-27T11:18:00+00:00,WARNING,auth-service,Repeated failed login attempt,318.04,401,1
+2026-10-27T11:19:00+00:00,WARNING,auth-service,Repeated failed login attempt,207.09,401,1
+2026-10-27T11:20:00+00:00,WARNING,auth-service,Repeated failed login attempt,218.04,401,1
+2026-10-27T11:21:00+00:00,WARNING,auth-service,Repeated failed login attempt,334.89,401,1
+2026-10-27T11:22:00+00:00,WARNING,auth-service,Repeated failed login attempt,479.48,401,1
+2026-10-27T11:23:00+00:00,WARNING,auth-service,Repeated failed login attempt,257.21,401,1
+2026-10-27T11:24:00+00:00,WARNING,auth-service,Repeated failed login attempt,399.33,401,1
+2026-10-27T11:25:00+00:00,WARNING,auth-service,Repeated failed login attempt,451.74,401,1
+2026-10-27T11:26:00+00:00,INFO,database,Request completed successfully,154.28,200,0
+2026-10-27T11:27:00+00:00,INFO,payments,Request completed successfully,175.95,200,0
+2026-10-27T11:28:00+00:00,INFO,auth-service,Request completed successfully,126.31,200,0
+2026-10-27T11:29:00+00:00,WARNING,api-gateway,Response latency above expected threshold,884.08,200,0
+2026-10-27T11:30:00+00:00,INFO,database,Request completed successfully,133.23,200,0
+2026-10-27T11:31:00+00:00,WARNING,payments,Response latency above expected threshold,846.48,200,0
+2026-10-27T11:32:00+00:00,WARNING,payments,Response latency above expected threshold,1152.05,200,0
+2026-10-27T11:33:00+00:00,INFO,database,Request completed successfully,172.36,200,0
+2026-10-27T11:34:00+00:00,INFO,worker,Request completed successfully,155.18,200,0
+2026-10-27T11:35:00+00:00,INFO,database,Request completed successfully,193.65,200,0
+2026-10-27T11:36:00+00:00,INFO,database,Request completed successfully,153.57,200,0
+2026-10-27T11:37:00+00:00,WARNING,api-gateway,Response latency above expected threshold,740.32,200,0
+2026-10-27T11:38:00+00:00,INFO,payments,Request completed successfully,161.59,200,0
+2026-10-27T11:39:00+00:00,INFO,payments,Request completed successfully,131.72,200,0
+2026-10-27T11:40:00+00:00,INFO,payments,Request completed successfully,195.79,200,0
+2026-10-27T11:41:00+00:00,INFO,auth-service,Request completed successfully,227.53,200,0
+2026-10-27T11:42:00+00:00,INFO,database,Request completed successfully,110.59,200,0
+2026-10-27T11:43:00+00:00,INFO,payments,Request completed successfully,184.94,200,0
+2026-10-27T11:44:00+00:00,INFO,api-gateway,Request completed successfully,146.32,200,0
+2026-10-27T11:45:00+00:00,INFO,payments,Request completed successfully,137.6,200,0
+2026-10-27T11:46:00+00:00,INFO,database,Request completed successfully,153.04,200,0
+2026-10-27T11:47:00+00:00,INFO,payments,Request completed successfully,153.13,200,0
+2026-10-27T11:48:00+00:00,INFO,payments,Request completed successfully,131.86,200,0
+2026-10-27T11:49:00+00:00,INFO,api-gateway,Request completed successfully,134.05,200,0
+2026-10-27T11:50:00+00:00,INFO,database,Request completed successfully,139.13,200,0
+2026-10-27T11:51:00+00:00,INFO,auth-service,Request completed successfully,156.2,200,0
+2026-10-27T11:52:00+00:00,INFO,database,Request completed successfully,204.34,200,0
+2026-10-27T11:53:00+00:00,INFO,auth-service,Request completed successfully,139.4,200,0
+2026-10-27T11:54:00+00:00,INFO,api-gateway,Request completed successfully,108.72,200,0
+2026-10-27T11:55:00+00:00,INFO,auth-service,Request completed successfully,81.83,200,0
+2026-10-27T11:56:00+00:00,WARNING,api-gateway,Response latency above expected threshold,960.3,200,0
+2026-10-27T11:57:00+00:00,INFO,worker,Request completed successfully,152.19,200,0
+2026-10-27T11:58:00+00:00,INFO,worker,Request completed successfully,195.48,200,0
+2026-10-27T11:59:00+00:00,INFO,api-gateway,Request completed successfully,141.51,200,0
